@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundo Pet - Contatos</title>
+  <link rel="shortcut icon" href="assets/cao.png" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html">
+        <img src="assets/logo.png" id="logo" alt="Imagem da Logo" title="Mundo Pet" width="200px" />
+      </a>
+      <nav id="menu-principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="loja.html">Loja</a></li>
+          <li><a href="vagas.html">Vagas</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="contatos">
+    <div class="container">
+      <h1>Contatos</h1>
+      <p>
+        Olá! Se você tiver alguma dúvida,
+        sugestão ou desejar saber mais sobre nossos projetos
+        que fortalecem a presença das mulheres no esporte,
+        preencha o formulário abaixo.
+        Nossa equipe entrará em contato o mais breve possível.
+        Será um prazer compartilhar essa jornada com você!
+      </p>
+        <strong>
+          <p>
+            Junte-se a nós e faça parte dessa revolução que transforma o
+            esporte em um espaço de igualdade e reconhecimento para todas!
+          </p>
+        </strong>
+      <form action="" id="contato">
+        <label for="nome">Nome:*</label>
+        <input type="text" name="nome" id="nome" required />
+
+        <label for="telefone">Telefone:*</label>
+        <input type="tel" name="telefone" id="telefone" required maxlength="11" placeholder="11999999999" />
+
+        <label for="email">E-mail:*</label>
+        <input type="email" name="email" id="email" required placeholder="exemplo@gmail.com" />
+
+        <label for="assunto">Assunto:*</label>
+        <select name="assunto" id="assunto" required>
+          <option value="">Selecione:</option>
+          <option value="duvidas">Dúvidas</option>
+          <option value="reclamacoes">Reclamações</option>
+          <option value="sugestoes">Sugestões</option>
+          <option value="agendamentos">Agendamento</option>
+          <option value="outros">Outros</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea required name="mensagem" id="mensagem"></textarea>
+        <button>Enviar</button>
+
+
+      </form>
+    </div>
+
+    <div id="mapa">
+     <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.121360018795!2d-46.66834338448797!3d-23.530920084708176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce581cad023787%3A0xc7f123a39d783222!2sAv.%20Francisco%20Matarazzo%2C%20249%20-%20%C3%81gua%20Branca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005001-000!5e0!3m2!1spt-BR!2sbr!4v1692551000000!5m2!1spt-BR!2sbr"
+    width="100%" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <div>
+        <p>Todos os direitos reservados &copy; 2025</p>
+      </div>
+      <div id="midias-sociais">
+        <a href="https://instagram.com" target="_blank">
+          <img src="assets/instagram.png" alt="Logo instagram" title="Siga-nos no instagram" />
+        </a>
+        <a href="https://wa.me/5511913280857">
+          <img src="assets/whatsapp.png" alt="Logo whatsapp" title="Fale conosco no whatsapp" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
